@@ -31,13 +31,60 @@ body {
 .intestazione {
     text-align: center;
     padding-top: 20px;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0px auto;
 }
 
-.intestazione :nth-last-child(1) {
-    padding-top: 20px;
+h1+p {
+    padding: 20px;
     font-size: 12px;
 }
 
 /*header*/
+
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+
+}
+
+.box {
+    float: left;
+    width: calc(964px/3);
+    height: 100px;
+    background: #0f0e17;
+    margin: 10px 6px;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgba(15, 14, 23, 0.651);
+}
+
+.contenitore {
+    background-color: #e53170;
+}
+
+.photo>img {
+    width: 100px;
+    height: 100px;
+}
+
+.photo {
+    float: left;
+    margin-right: 20px;
+}
+
+.info {
+    padding: 10px;
+}
+
+.ruolo {
+    padding-top: 10px;
+}
+
+.email {
+    padding-top: 5px;
+}
