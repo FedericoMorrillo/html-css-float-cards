@@ -4,6 +4,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 /*reset*/
 
 /*font*/
@@ -16,7 +17,27 @@ h6 {
     font-family: 'Croissant One', cursive;
 }
 
-body{
+h1 {
+    color: #e53170;
+}
+
+body {
     font-family: 'Fredoka', sans-serif;
 }
+
 /*font*/
+
+/*header*/
+.intestazione {
+    text-align: center;
+    padding-top: 20px;
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.intestazione :nth-last-child(1) {
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+/*header*/
